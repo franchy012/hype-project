@@ -1,0 +1,123 @@
+/* IMPORTS */
+@import url('colors.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.Landing {
+    width: 1280px;
+    height: 3547px;
+    background-color: var(--Secundario-Blanco);
+
+  }
+
+  .nav {
+      height: 88px;
+      margin-top: 27px;
+      margin-left: 87px;
+      margin-right: 87px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .Logo {
+    width: 77px;
+    height: 30px;
+    object-fit: contain;
+    
+  }
+
+  .Rectangle {
+    width: 159px;
+    height: 39px;
+    border-radius: 6px;
+    border: solid 1px var(--Principal-coral);
+    display: flex;
+  }
+
+  .Contactanos {
+    width: 159px;
+    height: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--Principal-coral);
+    margin: 0;
+    justify-content: center;
+    align-self: center;
+  }
+
+#contactanos {
+    text-decoration: none;
+}
+
+  
+  .title {
+        height: 570px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 87px;
+  }
+
+  .banner {
+    width: 721px;
+    height: 570px;
+    object-fit: contain;
+    margin-left: auto;
+  }
+
+  .Te-ayudamos-a-potenc {
+    width: 439px;
+    height: 228px;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: var(--Principal-azul);
+
+    margin: 0;
+  }
+
+  .Somos-un-servicio-in {
+    width: 413px;
+    height: 86px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: var(--Principal-azul);
+    margin: 0;
+  }
+
+  .cards {
+      height: 665px ;
+  }
+
+  .portfolio {
+      height: 1026px ;
+      background-color:blue;
+  }
+
+  .testimonios {
+      height: 382px;
+      background-color: yellow;
+  }
+
+  .formulario {
+      height: 752px;
+      background-color: black;
+  }
+
+  .footer {
+      height: 64px;
+      background-color: orange;
+  }
