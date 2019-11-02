@@ -98,9 +98,125 @@
     margin: 0;
   }
 
-  .cards {
+  .cards-section {
       height: 665px ;
+      display: grid;
+      grid-template-rows: 262px 403px;
+      position: relative;
+
   }
+
+
+  .subtitle {
+      justify-self: center;
+  }
+  .Convertimos-marcas-e {
+  width: 641px;
+  height: 90px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--Principal-azul);
+  margin: auto;
+}
+
+.Somos-la-respuesta-t {
+    width: 555px;
+    height: 53px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--Principal-azul);
+    margin: auto;
+    padding-top: 27px;
+  }
+
+  .background {
+    background-image: url('/src/images/bg.png');
+    background-position: bottom; /*Positioning*/
+    background-size: cover;   
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
+  }
+.cards {
+    margin-left: 87px;
+    margin-right: 87px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+}
+
+.card {
+    padding-left: 28px;
+    padding-top: 30px;
+    width: 342px;
+    height: 294px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    background-color: var(--Secundario-Blanco);
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+
+  .card-title {
+    width: 283px;
+    height: 32px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color: var(--Principal-azul);
+  }
+
+  .card-body {
+    width: 272px;
+    height: 48px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: var(--Principal-Gris);
+  }
+
+  .card-btn {
+    width: 272px;
+    height: 40px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: var(--Principal-coral);
+  }
+  /* .bg {
+    width: 1280px;
+    height: 403px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  } */
 
   .portfolio {
       height: 1026px ;
