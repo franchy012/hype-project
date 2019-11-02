@@ -220,7 +220,82 @@
 
   .portfolio {
       height: 1026px ;
-      background-color:blue;
+      position: relative;
+  }
+
+  .Confan-en-nosotros {
+    height: 32px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color: var(--Principal-azul);
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 57px;
+  }
+
+  .Logo-company {
+    width: 150px;
+    height: 30px;
+    object-fit: contain;
+  }
+
+  .logos {
+    margin-left: 172px;
+    margin-right: 172px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+.portfolio-body{
+    margin-top: 185px;
+    display: grid;
+    grid-template-columns: 375px 811px  ;
+}
+
+
+
+.Conoc-algunos-de-nu {
+    width: 375px;
+    height: 90px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: var(--Principal-azul);
+    margin: 0;
+  }
+
+  .Somos-un-servicio-in-Copy {
+    width: 382px;
+    height: 86px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: var(--Principal-azul);
+    margin-top: 30px;
+  }
+
+
+  .Path {
+    width: 533px;
+    height: 709px;
+    object-fit: contain;
+    position: absolute;
+    right: 0px;
+    top: 150px;
   }
 
   .testimonios {
