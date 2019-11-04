@@ -221,9 +221,9 @@
       opacity: 0;
     }
   }
-  @media only screen and (min-width: 850px) {
+  /* @media only screen and (min-width: 850px) {
     body {
       padding: 0 80px;
     }
-  }
+  } */
   

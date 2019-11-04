@@ -2,18 +2,21 @@
 @import url('colors.css');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-.Landing {
-    width: auto;
-    height: auto;
+body{
+  margin: 0;
+}
+
+.landing {
+    /* width: 1280px;
+    height: 3547px; */
+    margin-left: 6.8%;
     background-color: var(--Secundario-Blanco);
 
   }
 
   .nav {
-      height: 88px;
+      height: auto;
       margin-top: 27px;
-      margin-left: 87px;
-      margin-right: 87px;
       display: flex;
       justify-content: space-between;
   }
@@ -31,6 +34,7 @@
     border-radius: 6px;
     border: solid 1px var(--Principal-coral);
     display: flex;
+    margin-right: 6.8%;
   }
 
   .Contactanos {
@@ -56,10 +60,10 @@
 
   
   .title {
+        margin-top: 22px;
         height: 570px;
         display: flex;
         justify-content: space-between;
-        margin-left: 87px;
   }
 
   .banner {
@@ -70,6 +74,7 @@
   }
 
   .Te-ayudamos-a-potenc {
+    padding-top: 90px;
     width: 439px;
     height: 228px;
     font-family: Montserrat;
@@ -99,6 +104,8 @@
   }
 
   .cards-section {
+    margin-right: 6.8%;
+    margin-top: 30px;
       height: 665px ;
       display: grid;
       grid-template-rows: 262px 403px;
@@ -141,29 +148,27 @@
     padding-top: 27px;
   }
 
-  .background {
-    background-image: url('/src/images/bg.png');
-    background-position: bottom; /*Positioning*/
-    background-size: cover;   
-    background-repeat: no-repeat; /*Prevent showing multiple background images*/
-  }
+
+  
 .cards {
-    margin-left: 87px;
-    margin-right: 87px;
+
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 40px;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 3.1%;
 }
 
 .card {
+  
     padding-left: 28px;
     padding-top: 30px;
-    width: 342px;
-    height: 294px;
+    width: auto;
+    height: 264px;
     border-radius: 10px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
     background-color: var(--Secundario-Blanco);
   }
+
+
 
   .icon {
     width: 60px;
@@ -171,7 +176,12 @@
     object-fit: contain;
   }
 
+
   .card-title {
+    margin-top: 12.2%;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
     width: 283px;
     height: 32px;
     font-family: Montserrat;
@@ -185,6 +195,10 @@
   }
 
   .card-body {
+    margin-top: 6.5%;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
     width: 272px;
     height: 48px;
     font-family: Montserrat;
@@ -198,6 +212,10 @@
   }
 
   .card-btn {
+    margin-top: 7.1%;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
     width: 272px;
     height: 40px;
     font-family: Montserrat;
@@ -219,6 +237,7 @@
   } */
 
   .portfolio {
+    margin-right: 6.8%;
       height: 1026px ;
       position: relative;
   }
@@ -242,14 +261,15 @@
     width: 150px;
     height: 30px;
     object-fit: contain;
+
   }
 
   .logos {
-    margin-left: 172px;
-    margin-right: 172px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin-left: 6.6%;
+    margin-right: 6.6%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 6%;
   }
 
 .portfolio-body{
