@@ -1,128 +1,130 @@
 /* IMPORTS */
-@import url('colors.css');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("/src/css/colors.css");
+@import url("/src/fonts/fonts.css");
 
-body{
+body {
   margin: 0;
 }
 
 .landing {
-    /* width: 1280px;
+  /* width: 1280px;
     height: 3547px; */
-    margin-left: 6.8%;
-    background-color: var(--Secundario-Blanco);
-
-  }
-
-  .nav {
-      height: auto;
-      margin-top: 27px;
-      display: flex;
-      justify-content: space-between;
-  }
-
-  .Logo {
-    width: 77px;
-    height: 30px;
-    object-fit: contain;
-    
-  }
-
-  .Rectangle {
-    width: 159px;
-    height: 39px;
-    border-radius: 6px;
-    border: solid 1px var(--Principal-coral);
-    display: flex;
-    margin-right: 6.8%;
-  }
-
-  .Contactanos {
-    width: 159px;
-    height: 20px;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--Principal-coral);
-    margin: 0;
-    justify-content: center;
-    align-self: center;
-  }
-
-#contactanos {
-    text-decoration: none;
+  background-color: var(--Secundario-Blanco);
 }
 
-  
-  .title {
-        margin-top: 22px;
-        height: 570px;
-        display: flex;
-        justify-content: space-between;
-  }
+.nav {
+  margin-left: 6.8%;
+  height: auto;
+  margin-top: 27px;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .banner {
-    width: 721px;
-    height: 570px;
-    object-fit: contain;
-    margin-left: auto;
-  }
+.Logo {
+  width: 77px;
+  height: 30px;
+  object-fit: contain;
+}
 
-  .Te-ayudamos-a-potenc {
-    padding-top: 90px;
-    width: 439px;
-    height: 228px;
-    font-family: Montserrat;
-    font-size: 60px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.17;
-    letter-spacing: normal;
-    color: var(--Principal-azul);
+.Rectangle {
+  width: 159px;
+  height: 39px;
+  border-radius: 6px;
+  border: solid 1px var(--Principal-coral);
+  display: flex;
+  margin-right: 6.8%;
+}
 
-    margin: 0;
-  }
+.Contactanos {
+  width: 159px;
+  height: 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--Principal-coral);
+  margin: 0;
+  justify-content: center;
+  align-self: center;
+}
 
-  .Somos-un-servicio-in {
-    width: 413px;
-    height: 86px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.38;
-    letter-spacing: normal;
-    color: var(--Principal-azul);
-    margin: 0;
-  }
+#contactanos {
+  text-decoration: none;
+}
 
-  .cards-section {
-    margin-right: 6.8%;
-    margin-top: 30px;
-      height: 665px ;
-      display: grid;
-      grid-template-rows: 262px 403px;
-      position: relative;
+.title {
+  margin-left: 6.8%;
+  margin-top: 22px;
+  height: 570px;
+  display: flex;
+  justify-content: space-between;
+}
 
-  }
+.banner {
+  width: 721px;
+  height: 570px;
+  object-fit: contain;
+  margin-left: auto;
+}
 
+.Te-ayudamos-a-potenc {
+  padding-top: 90px;
+  width: 439px;
+  height: 228px;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: var(--Principal-azul);
 
-  .subtitle {
-      justify-self: center;
-  }
-  .Convertimos-marcas-e {
+  margin: 0;
+}
+
+.Somos-un-servicio-in {
+  width: 413px;
+  height: 86px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: var(--Principal-azul);
+  margin: 0;
+}
+
+.background-cards {
+  background: url("../images/bg.png") no-repeat bottom center;
+  background-size: 100% 56.54%;
+}
+
+.cards-section {
+  margin-left: 6.8%;
+  margin-right: 6.8%;
+  margin-top: 30px;
+  /* height: 665px ; */
+  display: grid;
+  grid-template-rows: 232px 403px;
+  position: relative;
+}
+
+.subtitle {
+  justify-self: center;
+}
+.Convertimos-marcas-e {
   width: 641px;
   height: 90px;
   font-family: Montserrat;
   font-size: 36px;
-  font-weight: normal;
+  font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
@@ -133,101 +135,94 @@ body{
 }
 
 .Somos-la-respuesta-t {
-    width: 555px;
-    height: 53px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.38;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--Principal-azul);
-    margin: auto;
-    padding-top: 27px;
-  }
+  width: 555px;
+  height: 53px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--Principal-azul);
+  margin: auto;
+  padding-top: 27px;
+}
 
-
-  
 .cards {
-
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 3.1%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 3.1%;
 }
 
 .card {
-  
-    padding-left: 28px;
-    padding-top: 30px;
-    width: auto;
-    height: 264px;
-    border-radius: 10px;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
-    background-color: var(--Secundario-Blanco);
-  }
+  padding-left: 28px;
+  padding-top: 30px;
+  width: auto;
+  height: 264px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--Secundario-Blanco);
+}
 
+.icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
 
+.card-title {
+  margin-top: 12.2%;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  width: 283px;
+  height: 32px;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: var(--Principal-azul);
+}
 
-  .icon {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-  }
+.card-body {
+  margin-top: 6.5%;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  width: 272px;
+  height: 48px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: var(--Principal-Gris);
+}
 
-
-  .card-title {
-    margin-top: 12.2%;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
-    width: 283px;
-    height: 32px;
-    font-family: Montserrat;
-    font-size: 28px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.14;
-    letter-spacing: normal;
-    color: var(--Principal-azul);
-  }
-
-  .card-body {
-    margin-top: 6.5%;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
-    width: 272px;
-    height: 48px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.38;
-    letter-spacing: normal;
-    color: var(--Principal-Gris);
-  }
-
-  .card-btn {
-    margin-top: 7.1%;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
-    width: 272px;
-    height: 40px;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    color: var(--Principal-coral);
-  }
-  /* .bg {
+.card-btn {
+  margin-top: 7.1%;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  width: 272px;
+  height: 40px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: var(--Principal-coral);
+}
+/* .bg {
     width: 1280px;
     height: 403px;
     object-fit: contain;
@@ -236,99 +231,253 @@ body{
     left: 0;
   } */
 
-  .portfolio {
-    margin-right: 6.8%;
-      height: 1026px ;
-      position: relative;
-  }
+.background-portfolio {
+  background: url("../images/portfolio/background/path.png") no-repeat;
+  background-position: right 0px top 27.3%;
+  background-size: auto 68.22%;
+}
 
-  .Confan-en-nosotros {
-    height: 32px;
-    font-family: Montserrat;
-    font-size: 28px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.14;
-    letter-spacing: normal;
-    color: var(--Principal-azul);
-    text-align: center;
-    margin-top: 62px;
-    margin-bottom: 57px;
-  }
+.portfolio {
+  margin-left: 6.8%;
+  margin-right: 6.8%;
+  height: 1026px;
+  position: relative;
+}
 
-  .Logo-company {
-    width: 150px;
-    height: 30px;
-    object-fit: contain;
+.Confan-en-nosotros {
+  height: 32px;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: var(--Principal-azul);
+  text-align: center;
+  margin-top: 62px;
+  margin-bottom: 57px;
+}
 
-  }
+.Logo-company {
+  width: 150px;
+  height: 30px;
+  object-fit: contain;
+}
 
-  .logos {
-    margin-left: 6.6%;
-    margin-right: 6.6%;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-column-gap: 6%;
-  }
+.logos {
+  margin-left: 6.6%;
+  margin-right: 6.6%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 6%;
+}
 
-.portfolio-body{
-    margin-top: 185px;
-    display: grid;
-    grid-template-columns: 375px 811px  ;
+.portfolio-body {
+  margin-top: 185px;
+  display: grid;
+  grid-template-columns: 375px 811px;
+}
+
+.Conoc-algunos-de-nu {
+  width: 375px;
+  height: 90px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: var(--Principal-azul);
+  margin: 0;
+}
+
+.Somos-un-servicio-in-Copy {
+  width: 382px;
+  height: 86px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: var(--Principal-azul);
+  margin-top: 30px;
+}
+
+.Path {
+  width: 533px;
+  height: 709px;
+  object-fit: contain;
+  position: absolute;
+  right: 0px;
+  top: 150px;
+}
+
+.background-testimonios {
+  background-color: var(--Secundario-Coral-Fondos);
+}
+
+.testimonios {
+  margin-left: 6.8%;
+  margin-right: 6.8%;
+  height: 382px;
+  text-align: center;
+}
+
+.Testimonial-Avatar {
+  margin-top: 30px;
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+}
+
+.Demostraron-una-amp {
+  margin-top: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  /* width: 631px; */
+  height: 104px;
+  font-family: Montserrat;
+  font-size: 29px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: -1px;
+  text-align: center;
+  color: var(--Principal-azul);
+}
+
+.logo-bbc {
+  margin-top: 13px;
+  width: 60px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.John-Peterson {
+  margin-top: 3px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 129px; */
+  height: 24px;
+  opacity: 0.5;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--Principal-azul);
 }
 
 
+.background-formulario{
+  position: relative;
+}
 
-.Conoc-algunos-de-nu {
-    width: 375px;
-    height: 90px;
-    font-family: Montserrat;
-    font-size: 36px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    color: var(--Principal-azul);
-    margin: 0;
-  }
+.group-img {
+  position: absolute;
+  top: 270px;
+  right: 0px;
+}
 
-  .Somos-un-servicio-in-Copy {
-    width: 382px;
-    height: 86px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.38;
-    letter-spacing: normal;
-    color: var(--Principal-azul);
-    margin-top: 30px;
-  }
+.formulario {
+  margin-top: 150px;
+  margin-left: 6.8%;
+  margin-right: 11.6%;
+  height: 752px;
+  display: block;
+  direction: ltr;
+}
 
+.Trabajemos-juntos {
+  margin-top: 0;
+  margin-bottom: 0;
+text-align: left;
+  width: 382px;
+  height: 65px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: var(--Principal-azul);
+  margin-left: auto;
+}
+.form {
+  display:flex;
+  flex-direction: column;
+  width: 382px;
+  margin-left: auto;
+}
 
-  .Path {
-    width: 533px;
-    height: 709px;
-    object-fit: contain;
-    position: absolute;
-    right: 0px;
-    top: 150px;
-  }
+.form-input {
+  width: 366px;
+  height: 56px;
+  border: none;
+  background-color: var(--Segundario-Gris-Claro);
+  border-radius: 4px;
+  padding-left: 16px;
+  margin-top: 25px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: var(--Principal-azul);
+}
 
-  .testimonios {
-      height: 382px;
-      background-color: yellow;
-  }
+.form-textarea {
+  width: 366px;
+  height: 160px;
+  padding-left: 16px;
+  padding-top: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--Segundario-Gris-Claro);
+  margin-top: 25px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: var(--Principal-azul);
+}
 
-  .formulario {
-      height: 752px;
-      background-color: black;
-  }
+.btn-form{
+  width: 176px;
+  height: 49px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--Principal-coral);
+  margin-top: 18px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--Secundario-Blanco);
 
-  .footer {
-      height: 64px;
-      background-color: orange;
-  }
+}
+
+.footer {
+  height: 64px;
+  background-color: orange;
+}

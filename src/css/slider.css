@@ -7,10 +7,26 @@
     position: relative;
   }
   
-  input {
+  #slide1 {
     display: none;
   }
   
+  #slide\ slide2 {
+    display: none;
+  }
+
+  #slide\ slide3 {
+    display: none;
+  }
+
+  #slide\ slide4 {
+    display: none;
+  }
+
+  #slide\ slide5 {
+    display: none;
+  }
+
   .inner {
     width: 500%;
     line-height: 0;
