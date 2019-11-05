@@ -381,6 +381,10 @@ body {
 
 .background-formulario{
   position: relative;
+  background: url('/src/images/footer/footer.png') no-repeat;
+  background-position: left 0px bottom 30%;
+    background-size: 691px 504px;
+
 }
 
 .group-img {
