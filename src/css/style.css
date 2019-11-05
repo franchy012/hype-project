@@ -479,5 +479,19 @@ text-align: left;
 
 .footer {
   height: 64px;
-  background-color: orange;
+  background-color: var(--Principal-azul);
+}
+
+.derechos-reservados {
+  padding-top: 23px;
+  padding-left: 6.8%;
+  height: 17px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: var(--Secundario-Blanco);
 }
