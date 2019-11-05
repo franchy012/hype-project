@@ -1,6 +1,6 @@
 /* IMPORTS */
-@import url("src/css/colors.css");
-@import url("src/fonts/fonts.css");
+@import url("/src/css/colors.css");
+@import url("/src/fonts/fonts.css");
 
 body {
   margin: 0;
