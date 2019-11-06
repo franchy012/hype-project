@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -162,6 +164,13 @@ body {
   border-radius: 10px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
   background-color: var(--Secundario-Blanco);
+  transition: 0.3s;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .icon {
@@ -219,6 +228,7 @@ body {
   line-height: 1.43;
   letter-spacing: normal;
   color: var(--Principal-coral);
+  cursor: pointer;
 }
 /* .bg {
     width: 1280px;
@@ -305,10 +315,71 @@ body {
   margin-top: 30px;
 }
 
+.wrapper {
+  position: absolute;
+  top: 300px;
+  right: -100px;
+  width: 811px;
+  height: 500px;
+  white-space: nowrap;
+  /* position: relative; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 2px;
+  height: 8px;
+}
+.wrapper::-webkit-scrollbar-track {
+  background : rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.wrapper::-webkit-scrollbar-thumb {
+  background : rgba(175, 175, 175, 0.5);
+  border-radius: 10px;
+  /* box-shadow:  0 0 6px rgba(255, 255, 255, 0.5); */
+} 
+
+.portfolio-image {
+  padding-right: 41.1px;
+  width: 607px;
+  height: 524px;
+  object-fit: cover;
+  border-radius: 1%;
+}
+
+.images {
+  animation: scroll 20s linear infinite;
+
+}
+
+.chevron {
+  position: absolute;
+  top: 200px;
+  left: 700px;
+  filter: brightness(70%);
+  cursor: pointer;
+}
+
+.chevron:active ~  .images {
+  background-color: red; 
+}
+
+@keyframes scroll {
+	0% {
+		right: 800px;
+	}
+	100% {
+		right: -800px;
+	}
+}
+
 .Path {
   width: 533px;
   height: 709px;
-  object-fit: contain;
+  object-fit: fill;
   position: absolute;
   right: 0px;
   top: 150px;
@@ -380,9 +451,9 @@ body {
 .background-formulario{
   position: relative;
   background: url('/src/images/footer/footer.png') no-repeat;
-  background-position: left 0px bottom 30%;
-    background-size: 691px 504px;
-
+  background-position: left -150px bottom 30%;
+  /* background-size: 691px 504px; */
+  object-fit: contain;
 }
 
 .group-img {
@@ -476,7 +547,7 @@ text-align: left;
   letter-spacing: normal;
   text-align: center;
   color: var(--Secundario-Blanco);
-
+  cursor: pointer;
 }
 
 .footer {

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="src/fonts/fonts.css">
     <link rel="stylesheet" href="src/css/colors.css">
-    <link rel="stylesheet" href="src/css/slider.css">
+    <!-- <link rel="stylesheet" href="src/css/slider.css"> -->
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <title>Hype</title>
@@ -14,8 +14,8 @@
 <body>
     <div class="landing">
         <div class="nav">
-            <img src="./src/images/logo.png" alt="" class="Logo">
-            <div href="#" class="Rectangle" id="contactanos"><p class="Contactanos">Contactanos</p></div>
+            <a href="#"><img src="./src/images/logo.png" alt="" class="Logo"></a>
+            <a href="#formulario" class="Rectangle" id="contactanos"><p class="Contactanos">Contactanos</p></a>
         </div>
 
         <div class="title">
@@ -67,14 +67,7 @@
 
 <div class="background-portfolio">
         <div class="portfolio">
-                <!-- <img src="/src/images/portfolio/background/path.png"
-                srcset="/src/images/portfolio/background/path@2x.png 2x,
-                        /src/images/portfolio/background/path@3x.png 3x"
-                class="Path"> -->
-                <img src="./src/images/portfolio/background/path.png"
-                srcset="./src/images/portfolio/background/path@2x.png 2x,
-                        ./src/images/portfolio/background/path@3x.png 3x"
-                class="Path">
+
             <h4 class="Confan-en-nosotros">Confían en nosotros</h4>
 
             <div class="logos">
@@ -86,9 +79,7 @@
                     srcset="./src/images/logos/logo-intuit@2x.png 2x,
                             ./src/images/logos/logo-intuit@3x.png 3x"
                     class="Logo-company">
-                    <img src="./src/images/logos/logo-salesforce.png"
-                    srcset="./src/images/logos/logo-salesforce@2x.png 2x,
-                            ./src/images/logos/logo-salesforce@3x.png 3x">
+
                     <img src="./src/images/logos/logo-salesforce.png"
                     srcset="./src/images/logos/logo-salesforce@2x.png 2x,
                             ./src/images/logos/logo-salesforce@3x.png 3x"
@@ -108,71 +99,19 @@
                     <h2 class="Conoc-algunos-de-nu ">Conocé algunos de nuestros trabajos</h2>
                     <p class="Somos-un-servicio-in-Copy">Somos un servicio integral para mejorar significativamente la visibilidad de tu marca.</p>
                 </div>
-
-
-                <div class="wrapper">
-                        <input checked type=radio name="slider" id="slide1" />
-                        <input type=radio name="slider" id="slide slide2" />
-                        <input type=radio name="slider" id="slide slide3" />
-                        <input type=radio name="slider" id="slide slide4" />
-                        <input type=radio name="slider" id="slide slide5" />
-                      
-                        <div class="slider-wrapper">
-                          <div class=inner>
-                            <article>
-                              <div class="info top-left">
-                                </div>
-                              <img src="src/images/portfolio/proyecto4.png" />
-                            </article>
-                      
-                            <article>
-                              <div class="info bottom-right">
-                                </div>
-                              <img src="src/images/portfolio/proyecto3.png" />
-                            </article>
-                      
-                            <article>
-                              <div class="info bottom-left">
-                                </div>
-                              <img src="src/images/portfolio/proyecto2.jpg" />
-                            </article>
-                      
-                            <article>
-                              <div class="info top-right">
-                                </div>
-                              <img src="src/images/portfolio/proyecto1.png" />
-                            </article>
-                      
-                            <article>
-                              <div class="info bottom-left">
-                                </div>
-                              <img src="src/images/portfolio/proyecto5.png" />
-                            </article>
-                          </div>
-                          <!-- .inner -->
-                        </div>
-                        <!-- .slider-wrapper -->
-                      
-                        <div class="slider-prev-next-control">
-                          <label for=slide1></label>
-                          <label for=slide2></label>
-                          <label for=slide3></label>
-                          <label for=slide4></label>
-                          <label for=slide5></label>
-                        </div>
-                        <!-- .slider-prev-next-control -->
-                      
-                        <div class="slider-dot-control">
-                          <label for=slide1></label>
-                          <label for=slide2></label>
-                          <label for=slide3></label>
-                          <label for=slide4></label>
-                          <label for=slide5></label>
-                        </div>
-                        <!-- .slider-dot-control -->
-                    </div>
             </div>
 
+            <div class="wrapper">
+                    <div class="images">
+                    <!-- <img src="./src/images/portfolio/proyecto1.png" alt="" class="portfolio-image"> -->
+                    <img src="./src/images/portfolio/proyecto4.png" alt="" class="portfolio-image" id="#">
+                    <img src="./src/images/portfolio/proyecto2.jpg" alt="" class="portfolio-image" >
+                    <img src="./src/images/portfolio/proyecto3.png" alt="" class="portfolio-image" >
+                    <img src="./src/images/portfolio/proyecto5.png" alt="" class="portfolio-image">
+                    <a href="#target"><img src="./src/images/portfolio/chevron-right.png" alt="" class="chevron"></a>
+
+                    </div>
+            </div>
         </div>
 </div>
 
@@ -193,7 +132,7 @@
         </div>
         <img src="src/images/footer/group-33.png" alt="" class="group-img">
 
-                <div class="formulario">
+                <div class="formulario" id="formulario">
                         <p class="Trabajemos-juntos">¡Trabajemos juntos!</p>
 
                         <form action="" class="form">
