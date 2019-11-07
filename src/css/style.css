@@ -570,6 +570,7 @@ body {
 @media (max-width: 360px) {
   .banner {
     display: none;
+
   }
 
   .Rectangle {
@@ -586,7 +587,7 @@ body {
     font-size: 40px;
     padding-top: 50px;
     width: auto;
-    height: auto;
+    height: auto; 
   }
 
   .Somos-un-servicio-in {
@@ -596,10 +597,13 @@ body {
   }
 
   .title {
-    background: white;
+    background: url(../images/banner.png) no-repeat;
+    background-size: 150px 130px;
+    background-position: right 10px bottom 87px;
     width: auto;
     height: auto;
     padding-bottom: 50px;
+    position: relative;
   }
 
   .cards-section {
@@ -811,6 +815,9 @@ body {
   }
 
   .title {
+    background: url(../images/banner.png) no-repeat;
+    background-size: 100px 100px;
+    /* background-position: right 10px bottom 87px; */
     background: white;
     width: auto;
     height: auto;
@@ -1899,230 +1906,6 @@ body {
   .banner {
     /* display: none; */
     width: 350px;
-    height: 400px;
-  }
-
-  .Rectangle {
-    padding-top: 5px;
-    width: 120px;
-    height: 30px;
-    margin-right: 5%;
-  }
-
-  .Contactanos {
-    font-size: 10px;
-  }
-
-  .Te-ayudamos-a-potenc {
-    font-size: 40px;
-    padding-top: 50px;
-    width: auto;
-    height: auto;
-  }
-
-  .Somos-un-servicio-in {
-    padding-top: 20px;
-    font-size: 18px;
-    width: auto;
-    height: auto;
-  }
-
-  .title {
-    background: white;
-    width: auto;
-    height: auto;
-    padding-bottom: 20px;
-  }
-
-  .cards-section {
-    grid-template-rows: auto auto;
-    margin-right: 2.8%;
-  }
-  .Convertimos-marcas-e {
-    width: auto;
-    height: auto;
-    font-size: 36px;
-  }
-
-  .Somos-la-respuesta-t {
-    display: none;
-  }
-
-  .cards {
-    grid-template-columns: auto auto auto;
-  }
-
-  .card {
-    margin-top: 20px;
-    padding-left: 20px;
-    width: 15rem;
-    height: auto;
-  }
-
-  .icon {
-    width: 20px;
-    height: 20px;
-  }
-
-  .card-title {
-    margin-top: 2.2%;
-    font-size: 15px;
-  }
-
-  .card-body {
-    margin-top: 1.5%;
-    width: 180px;
-    font-size: 12px;
-  }
-
-  .card-btn {
-    margin-top: 2.1%;
-  }
-
-  .portfolio {
-    height: auto;
-    margin-right: auto;
-  }
-
-  .Conoc-algunos-de-nu {
-    width: auto;
-    font-size: 25px;
-    text-align: center;
-  }
-
-  .Somos-un-servicio-in-Copy {
-    display: none;
-  }
-
-  .Confan-en-nosotros {
-    height: auto;
-    font-size: 22px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-
-  .Logo-company {
-    width: 60px;
-    height: 30px;
-    margin-bottom: 30px;
-  }
-
-  .logos {
-    margin-right: 0;
-    margin-left: 0;
-  }
-  .portfolio-body {
-    margin-top: auto;
-    grid-template-columns: auto;
-  }
-
-  .wrapper {
-    position: relative;
-    top: 0px;
-    right: 0px;
-    width: auto;
-    height: auto;
-  }
-
-  .portfolio-image {
-    padding-right: 41.1px;
-    width: 307px;
-    height: 224px;
-    object-fit: cover;
-    border-radius: 1%;
-  }
-
-  .chevron {
-    display: none;
-  }
-
-  .testimonios {
-    margin-top: 25px;
-    margin-left: 2.8%;
-    margin-right: 2.8%;
-    height: auto;
-  }
-
-  .Testimonial-Avatar {
-    width: 90px;
-    height: 90px;
-  }
-
-  .Demostraron-una-amp {
-    font-size: 25px;
-    height: auto;
-  }
-
-  .logo-bbc {
-    padding-bottom: 20px;
-  }
-
-  .background-formulario {
-    background: white;
-  }
-
-  .group-img {
-    display: none;
-  }
-
-  .formulario {
-    margin-top: 50px;
-    margin-right: 0;
-    height: auto;
-  }
-
-  .Trabajemos-juntos {
-    height: auto;
-    width: auto;
-    font-size: 25px;
-    /* margin-left: 50%; */
-    text-align: center;
-  }
-
-  .form {
-    width: auto;
-  }
-  .form-input {
-    margin-right: 20px;
-    width: auto;
-  }
-
-  .form-textarea {
-    margin-right: 20px;
-    width: auto;
-  }
-
-  .btn-form {
-    width: auto;
-    margin-right: 20px;
-  }
-
-  .footer {
-    height: 30px;
-  }
-
-  .derechos-reservados {
-    margin: 0;
-    margin-top: 20px;
-    font-size: 10px;
-    padding-top: 10px;
-    padding-left: 2.8%;
-  }
-}
-
-@media (min-width: 1001px) and (max-width: 1280px) {
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-  }
-
-  .banner {
-    /* display: none; */
-    width: 450px;
     height: 400px;
   }
 
