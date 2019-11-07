@@ -2069,50 +2069,30 @@ body {
   }
 
   .group-img {
-    display: none;
+    /* display: none; */
   }
-
+ 
   .formulario {
     margin-top: 50px;
-    margin-right: 0;
     height: auto;
+  }
+
+  .background-formulario {
+    background: url(../images/footer/footer.png) no-repeat;
+    background-size: 450px 300px;
+    background-position: left -100px bottom 80px;
   }
 
   .Trabajemos-juntos {
     height: auto;
     width: auto;
-    font-size: 25px;
+    font-size: 3em;
     /* margin-left: 50%; */
     text-align: center;
   }
 
-  .form {
-    width: auto;
-  }
-  .form-input {
-    margin-right: 20px;
-    width: auto;
-  }
 
-  .form-textarea {
-    margin-right: 20px;
-    width: auto;
-  }
 
-  .btn-form {
-    width: auto;
-    margin-right: 20px;
-  }
 
-  .footer {
-    height: 30px;
-  }
 
-  .derechos-reservados {
-    margin: 0;
-    margin-top: 20px;
-    font-size: 10px;
-    padding-top: 10px;
-    padding-left: 2.8%;
-  }
 }
