@@ -188,16 +188,18 @@
           <p class="Trabajemos-juntos">¡Trabajemos juntos!</p>
 
           <form action="" class="form">
-            <input type="text" placeholder="Nombre" class="form-input" />
-            <input type="email" placeholder="E-mail" class="form-input" />
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              class="form-textarea"
-              placeholder="Mensaje"
-            ></textarea>
+            <div class="float-container">
+                <input type="text" placeholder="" class="form-input" id="nombre"/ required>
+                <label for="nombre" class="label-input">Nombre</label>
+            </div>
+            <div class="float-container">
+                <input type="email" placeholder="" class="form-input" id="email"/ required>
+                <label for="email" class="label-input">Email</label>
+            </div>
+            <div class="float-container">
+                <input type="text" placeholder="" class="form-input" id="textarea"/ required>
+                <label for="textarea" class="label-input">Mensaje</label>
+            </div>
             <button class="btn-form">Pedir Cotización</button>
           </form>
         </section>

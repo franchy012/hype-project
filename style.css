@@ -359,7 +359,7 @@ body {
 .portfolio-image:hover {
   -webkit-filter: brightness(70%);
   filter: brightness(70%);
-} 
+}
 
 .images {
   animation: scroll 20s linear infinite;
@@ -527,7 +527,7 @@ body {
   outline: 0;
   cursor: text;
 
-  transition: all 200ms;
+  transition: all 500ms;
 }
 
 .label-input {
@@ -540,7 +540,7 @@ body {
   letter-spacing: normal;
   color: var(--Principal-azul);
   border: none;
-  cursor: text;
+
   position: absolute;
   top: 2.9em;
   left: 1em;
@@ -548,12 +548,14 @@ body {
   opacity: 0.5;
 }
 
+
 .form-input:focus + .label-input ,
 .form-input:valid + .label-input  {
   font-size: 65%;
   transform: translate3d(0, -10%, 0);
   opacity: 1;
 }
+
 
 .form-input:focus {
   outline:none;
@@ -564,7 +566,8 @@ body {
   height: 200px;
 }
 
-/* .form-textarea {
+/* 
+.form-textarea {
   width: 366px;
   height: 160px;
   padding-left: 16px;
@@ -581,7 +584,15 @@ body {
   line-height: 1.38;
   letter-spacing: normal;
   color: var(--Principal-azul);
+
+  top: 2.9em;
+  left: 1em;
+  transition: all 500ms;
+  opacity: 0.5;
+  
 } */
+
+
 
 .btn-form {
   width: 176px;
@@ -755,7 +766,10 @@ body {
     height: 224px;
     object-fit: cover;
     border-radius: 1%;
+
   }
+
+
 
   .chevron {
     display: none;
@@ -1021,7 +1035,7 @@ body {
   }
   .form-input {
     margin-right: 20px;
-    width: 300px;
+    width: auto;
   }
 
   .form-textarea {
@@ -1246,7 +1260,7 @@ body {
   }
   .form-input {
     margin-right: 20px;
-    width: 380px;
+    width: auto;
   }
 
   .form-textarea {
@@ -1329,7 +1343,7 @@ body {
   .Convertimos-marcas-e {
     width: 600px;
     height: auto;
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .Somos-la-respuesta-t {
@@ -1473,12 +1487,12 @@ body {
   }
   .form-input {
     margin-right: 20px;
-    width: 480px;
+    width: auto;
   }
 
   .form-textarea {
     margin-right: 20px;
-    width: 600px;
+    width: auto;
   }
 
   .btn-form {
@@ -1697,7 +1711,7 @@ body {
   }
   .form-input {
     margin-right: 20px;
-    width: 550px;
+    width: auto;
   }
 
   .form-textarea {
@@ -1921,7 +1935,7 @@ body {
   }
   .form-input {
     margin-right: 20px;
-    width: 650px;
+    width: auto;
   }
 
   .form-textarea {
